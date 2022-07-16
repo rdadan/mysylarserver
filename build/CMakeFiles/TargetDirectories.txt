@@ -1,0 +1,4 @@
+/mnt/d/MyProjects/linuxOS/myserver/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/MyProjects/linuxOS/myserver/build/CMakeFiles/mylog.dir
+/mnt/d/MyProjects/linuxOS/myserver/build/CMakeFiles/edit_cache.dir
+/mnt/d/MyProjects/linuxOS/myserver/build/CMakeFiles/test_log.dir

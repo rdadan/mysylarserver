@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/mnt/d/MyProjects/linuxOS/myserver/build",
+  "command": "/usr/bin/g++  -Dmylog_EXPORTS -I/mnt/d/MyProjects/linuxOS/myserver/.   -rdynamic -O0 -ggdb -std=c++11 -g -Wall -Wno-deprecated -Werror -Wno-unused-function -g -fPIC   -Wall -g -o CMakeFiles/mylog.dir/src/log/LogAppender.cpp.o -c /mnt/d/MyProjects/linuxOS/myserver/src/log/LogAppender.cpp",
+  "file": "/mnt/d/MyProjects/linuxOS/myserver/src/log/LogAppender.cpp"
+},
+{
+  "directory": "/mnt/d/MyProjects/linuxOS/myserver/build",
+  "command": "/usr/bin/g++  -Dmylog_EXPORTS -I/mnt/d/MyProjects/linuxOS/myserver/.   -rdynamic -O0 -ggdb -std=c++11 -g -Wall -Wno-deprecated -Werror -Wno-unused-function -g -fPIC   -Wall -g -o CMakeFiles/mylog.dir/src/log/LogEvent.cpp.o -c /mnt/d/MyProjects/linuxOS/myserver/src/log/LogEvent.cpp",
+  "file": "/mnt/d/MyProjects/linuxOS/myserver/src/log/LogEvent.cpp"
+},
+{
+  "directory": "/mnt/d/MyProjects/linuxOS/myserver/build",
+  "command": "/usr/bin/g++  -Dmylog_EXPORTS -I/mnt/d/MyProjects/linuxOS/myserver/.   -rdynamic -O0 -ggdb -std=c++11 -g -Wall -Wno-deprecated -Werror -Wno-unused-function -g -fPIC   -Wall -g -o CMakeFiles/mylog.dir/src/log/LogFormatter.cpp.o -c /mnt/d/MyProjects/linuxOS/myserver/src/log/LogFormatter.cpp",
+  "file": "/mnt/d/MyProjects/linuxOS/myserver/src/log/LogFormatter.cpp"
+},
+{
+  "directory": "/mnt/d/MyProjects/linuxOS/myserver/build",
+  "command": "/usr/bin/g++  -Dmylog_EXPORTS -I/mnt/d/MyProjects/linuxOS/myserver/.   -rdynamic -O0 -ggdb -std=c++11 -g -Wall -Wno-deprecated -Werror -Wno-unused-function -g -fPIC   -Wall -g -o CMakeFiles/mylog.dir/src/log/LogLevel.cpp.o -c /mnt/d/MyProjects/linuxOS/myserver/src/log/LogLevel.cpp",
+  "file": "/mnt/d/MyProjects/linuxOS/myserver/src/log/LogLevel.cpp"
+},
+{
+  "directory": "/mnt/d/MyProjects/linuxOS/myserver/build",
+  "command": "/usr/bin/g++  -Dmylog_EXPORTS -I/mnt/d/MyProjects/linuxOS/myserver/.   -rdynamic -O0 -ggdb -std=c++11 -g -Wall -Wno-deprecated -Werror -Wno-unused-function -g -fPIC   -Wall -g -o CMakeFiles/mylog.dir/src/log/Logger.cpp.o -c /mnt/d/MyProjects/linuxOS/myserver/src/log/Logger.cpp",
+  "file": "/mnt/d/MyProjects/linuxOS/myserver/src/log/Logger.cpp"
+},
+{
+  "directory": "/mnt/d/MyProjects/linuxOS/myserver/build",
+  "command": "/usr/bin/g++  -Dmylog_EXPORTS -I/mnt/d/MyProjects/linuxOS/myserver/.   -rdynamic -O0 -ggdb -std=c++11 -g -Wall -Wno-deprecated -Werror -Wno-unused-function -g -fPIC   -Wall -g -o CMakeFiles/mylog.dir/src/util.cpp.o -c /mnt/d/MyProjects/linuxOS/myserver/src/util.cpp",
+  "file": "/mnt/d/MyProjects/linuxOS/myserver/src/util.cpp"
+},
+{
+  "directory": "/mnt/d/MyProjects/linuxOS/myserver/build",
+  "command": "/usr/bin/g++   -I/mnt/d/MyProjects/linuxOS/myserver/.   -rdynamic -O0 -ggdb -std=c++11 -g -Wall -Wno-deprecated -Werror -Wno-unused-function -g   -Wall -g -o CMakeFiles/test_log.dir/test/test_log.cpp.o -c /mnt/d/MyProjects/linuxOS/myserver/test/test_log.cpp",
+  "file": "/mnt/d/MyProjects/linuxOS/myserver/test/test_log.cpp"
+}
+]

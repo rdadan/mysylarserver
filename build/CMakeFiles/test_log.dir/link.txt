@@ -1,0 +1,1 @@
+/usr/bin/g++   -rdynamic -O0 -ggdb -std=c++11 -g -Wall -Wno-deprecated -Werror -Wno-unused-function -g  -rdynamic CMakeFiles/test_log.dir/test/test_log.cpp.o  -o ../bin/test_log -Wl,-rpath,/mnt/d/MyProjects/linuxOS/myserver/lib ../lib/libmylog.so -lyaml-cpp 
