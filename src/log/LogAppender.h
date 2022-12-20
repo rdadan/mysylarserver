@@ -16,8 +16,7 @@ class LogAppender {
 public:
     using sptr = std::shared_ptr<LogAppender>;
     virtual ~LogAppender() {}
-    virtual void logAppender(std::shared_ptr<Logger> logger,
-                             LogLevel::Level level,
+    virtual void logAppender(std::shared_ptr<Logger> logger, LogLevel::Level level,
                              std::shared_ptr<LogEvent> event) = 0;
 
     void setFormatter(std::shared_ptr<LogFormatter> formater) {
@@ -29,8 +28,7 @@ public:
     LogLevel::Level getLevel() const { return m_level; }
 
 protected:
-    LogLevel::Level m_level =
-        LogLevel::DEBUG; // 没有写构造函数，这里直接初始化l
+    LogLevel::Level m_level = LogLevel::DEBUG; // 没有写构造函数，这里直接初始化l
     std::shared_ptr<LogFormatter> m_formatter;
 };
 

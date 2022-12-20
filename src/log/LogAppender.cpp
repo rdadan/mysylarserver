@@ -1,7 +1,9 @@
 
 #include "LogAppender.h"
-#include "LogFormatter.h"
+
 #include <iostream>
+
+#include "LogFormatter.h"
 
 namespace rdadan {
 
@@ -18,8 +20,7 @@ void StdoutAppender::logAppender(std::shared_ptr<Logger> logger,
 FileAppender::FileAppender(const std::string filename) : m_filename(filename) {
     reopenFile();
 }
-void FileAppender::logAppender(std::shared_ptr<Logger> logger,
-                               LogLevel::Level level,
+void FileAppender::logAppender(std::shared_ptr<Logger> logger, LogLevel::Level level,
                                std::shared_ptr<LogEvent> event) {
     // 按照格式将日志输出到 日志文件
     if (level >= m_level) {
